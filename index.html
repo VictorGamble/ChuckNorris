@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Says</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://media1.s-nbcnews.com/j/streams/2012/March/120305/143382-g-rnt-120305-norris-walker.fit-760w.jpg" alt="">
+        <p id="chuckSays">Chuck says....</p>
+        <button type="button" id="refreshQuote">Refresh Quote</button>
+        <form>
+            <input type="hidden" value="animal" id="categoryInput"/>
+            <button type="submit" id="submitForm">Get Animal Quote</button>
+            <br>
+            <br>
+            <label for="userInput">Please type a category <br>
+                <input type="text" id="userInput"/>
+            </label>
+        
+            <button type="button" id="newCategoryButton">New category</button>
+        </form>
+    </div>
+</body>
+<script src="js/get.js"></script>
+<script src="js/index.js"></script>
+</html>
