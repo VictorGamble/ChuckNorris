@@ -1,0 +1,40 @@
+p{
+    border: 5px solid black;
+    text-align: center;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    
+}
+
+input:hover{
+    box-shadow: 10px 5px red;
+}
+
+img{
+    height: 350px;
+    width: 350px;
+    
+}
+ .container{
+     /* display: grid;
+     gap: 1em;
+     grid-template-columns: repeat(2, 2fr);
+     grid-template-rows: repeat(2, 2fr); */
+ }
+
+ 
+ form{
+     /* grid-row: 1;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(2, 1fr); */
+ }
+
+#submitForm {
+    grid-row: 1 /span 2 ;
+    height: 50px;
+    width: 50px;
+}
